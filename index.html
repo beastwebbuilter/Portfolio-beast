@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BEAST | Full-stack Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-text">BEAST</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo"><span class="logo-accent">B</span>EAST</a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="download-btn">Download CV</button>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-text fade-up">
+        <p class="eyebrow">HELLO!</p>
+        <h1 class="hero-title">I'm <span class="accent">BEAST</span></h1>
+        <h2 class="hero-role">Full-stack Web Developer</h2>
+        <p class="hero-desc">
+          Crafting fast, scalable, and pixel-perfect web experiences.
+          Passionate about clean code, sharp design, and turning ideas
+          into products people love to use.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Let's talk</a>
+        </div>
+        <div class="socials">
+          <a href="#" class="social-icon" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.91h-2.34V22c4.78-.79 8.44-4.94 8.44-9.94Z"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Twitter">
+            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M18.9 2H21l-6.5 7.43L22.3 22h-6.9l-5.4-6.9L3.7 22H1.6l6.96-7.95L1.2 2h7.06l4.9 6.3L18.9 2Zm-1.2 18h1.14L7.4 3.9H6.17L17.7 20Z"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.16-.46-.35-1.26-.4-2.43C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43A4.9 4.9 0 0 1 3.78 3c.46-.5 1.02-.9 1.77-1.15.46-.16 1.26-.35 2.43-.4C9.25 2.17 9.63 2.16 12 2.16Zm0 2c-3.15 0-3.5.01-4.73.07-1.06.05-1.63.22-2.01.37a3 3 0 0 0-1.06.69 3 3 0 0 0-.69 1.06c-.15.38-.32.95-.37 2.01-.06 1.23-.07 1.58-.07 4.73s.01 3.5.07 4.73c.05 1.06.22 1.63.37 2.01.16.42.36.75.69 1.06.31.33.64.53 1.06.69.38.15.95.32 2.01.37 1.23.06 1.58.07 4.73.07s3.5-.01 4.73-.07c1.06-.05 1.63-.22 2.01-.37a3 3 0 0 0 1.06-.69 3 3 0 0 0 .69-1.06c.15-.38.32-.95.37-2.01.06-1.23.07-1.58.07-4.73s-.01-3.5-.07-4.73c-.05-1.06-.22-1.63-.37-2.01a3 3 0 0 0-.69-1.06 3 3 0 0 0-1.06-.69c-.38-.15-.95-.32-2.01-.37-1.23-.06-1.58-.07-4.73-.07Zm0 3.4a5.44 5.44 0 1 1 0 10.88 5.44 5.44 0 0 1 0-10.88Zm0 2a3.44 3.44 0 1 0 0 6.88 3.44 3.44 0 0 0 0-6.88Zm5.66-2.65a1.27 1.27 0 1 1-2.55 0 1.27 1.27 0 0 1 2.55 0Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image fade-up delay-1">
+        <div class="glow-ring">
+          <img src="images/profile.jpg" alt="BEAST" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title fade-up">About <span class="accent">Me</span></h2>
+
+      <div class="about-photo fade-up">
+        <div class="glow-ring small">
+          <img src="images/profile.jpg" alt="BEAST portrait" />
+        </div>
+      </div>
+
+      <h3 class="about-role fade-up">Full-stack Web Developer</h3>
+      <p class="about-desc fade-up">
+        I'm a full-stack developer who enjoys building things end to end —
+        from database schema to the last pixel of a UI. I care about
+        performance, accessibility, and interfaces that feel effortless.
+        When I'm not coding, I'm exploring new frameworks or refining
+        my design instincts.
+      </p>
+      <a href="#contact" class="btn btn-primary fade-up">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title fade-up">My <span class="accent">Skills</span></h2>
+
+      <div class="skill-list">
+        <div class="skill-item fade-up">
+          <span class="skill-name">HTML</span>
+          <div class="skill-bar"><div class="skill-fill" data-level="95"></div></div>
+        </div>
+        <div class="skill-item fade-up">
+          <span class="skill-name">CSS</span>
+          <div class="skill-bar"><div class="skill-fill" data-level="70"></div></div>
+        </div>
+        <div class="skill-item fade-up">
+          <span class="skill-name">JAVASCRIPT</span>
+          <div class="skill-bar"><div class="skill-fill" data-level="88"></div></div>
+        </div>
+        <div class="skill-item fade-up">
+          <span class="skill-name">FIGMA</span>
+          <div class="skill-bar"><div class="skill-fill" data-level="80"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title fade-up">My <span class="accent">Services</span></h2>
+
+      <div class="services-grid">
+        <div class="service-card fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4Zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4Z"/></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Responsive, accessible websites built with clean, maintainable code.</p>
+        </div>
+        <div class="service-card fade-up delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M4 4h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-6l2 3H8l2-3H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm1 2v10h14V6H5Z"/></svg>
+          </div>
+          <h3>Graphic Designer</h3>
+          <p>Visual identities and UI concepts that communicate with clarity.</p>
+        </div>
+        <div class="service-card fade-up delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M3 17h4v4H3v-4Zm7-6h4v10h-4V11Zm7-6h4v16h-4V5Z"/></svg>
+          </div>
+          <h3>Digital Marketer</h3>
+          <p>Data-driven strategies to grow reach, traffic, and conversions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 class="section-title fade-up">My <span class="accent">Portfolio</span></h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-card fade-up">
+          <div class="portfolio-thumb">01</div>
+          <h3>E-commerce Platform</h3>
+          <p>React · Node.js · Stripe</p>
+        </div>
+        <div class="portfolio-card fade-up delay-1">
+          <div class="portfolio-thumb">02</div>
+          <h3>SaaS Dashboard</h3>
+          <p>Vue · Express · PostgreSQL</p>
+        </div>
+        <div class="portfolio-card fade-up delay-2">
+          <div class="portfolio-thumb">03</div>
+          <h3>Brand Identity System</h3>
+          <p>Figma · Illustrator</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title fade-up">Get In <span class="accent">Touch</span></h2>
+      <p class="contact-desc fade-up">Have a project in mind? Let's build something great together.</p>
+      <a href="mailto:hello@beast.dev" class="btn btn-primary fade-up">Say Hello</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <span class="logo"><span class="logo-accent">B</span>EAST</span>
+      <p>&copy; 2026 BEAST. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="m12 6-8 8 1.41 1.41L12 8.83l6.59 6.58L20 14z"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+  </html>
